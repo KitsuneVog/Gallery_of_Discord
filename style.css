@@ -49,3 +49,11 @@ body {
 .image:nth-child(2n) {
     grid-row: span 2;
 }
+@media (max-width: 790px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(356px, 1fr));
+    }
+    .image:nth-child(5n) {
+        grid-column: span 1;
+    }
+}
