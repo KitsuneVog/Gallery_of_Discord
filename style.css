@@ -1,3 +1,28 @@
+body {
+    margin-top: 0;
+}
+.nav {
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0 0 10px 0;
+    border-radius: 8px;
+
+    background: linear-gradient(to right, #ea8d8d, #a890fe);
+    box-shadow: 0 0 15px #000;
+}
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+    transition: color .2s;
+}
+.nav__link:hover {
+    color: #cfcfcf;
+}
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
@@ -15,11 +40,11 @@
     box-shadow: inset 0 0 0 #000, 0 8px 15px #000;
 }
 .image:nth-child(9n) {
-    grid-column: span 2;
+    grid-row: span 3;
 }
 .image:nth-child(5n) {
     grid-column: span 2;
-    grid-row: span 2;
+    grid-row: span 3;
 }
 .image:nth-child(2n) {
     grid-row: span 2;
