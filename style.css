@@ -8,7 +8,7 @@ body {
     align-items: center;
     padding: 0 20px;
     margin: 0 0 10px 0;
-    border-radius: 8px;
+    border-radius: 0 0 8px 8px;
 
     background: linear-gradient(to right, #ea8d8d, #a890fe);
     box-shadow: 0 0 15px #000;
